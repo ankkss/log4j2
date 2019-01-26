@@ -1,0 +1,37 @@
+2019-01-26 23:03:11,036 INFO  SampleRestController:27 - Successfully printed logs for level -info
+2019-01-26 23:10:01,836 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2019-01-26 23:10:01,876 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Sat Jan 26 23:10:01 IST 2019]; root of context hierarchy
+2019-01-26 23:10:01,910 INFO  AnnotationConfigWebApplicationContext:207 - Registering annotated classes: [class com.sample.configuration.ApplicationConfiguration]
+2019-01-26 23:10:02,069 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-26 23:10:02,470 INFO  RequestMappingHandlerMapping:537 - Mapped "{[/rest/samplelog4j],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.sample.controller.SampleRestController.sampleLogs(java.lang.String)
+2019-01-26 23:10:02,491 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jan 26 23:10:01 IST 2019]; root of context hierarchy
+2019-01-26 23:10:02,543 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 704 ms
+2019-01-26 23:10:02,585 INFO  DispatcherServlet:489 - FrameworkServlet 'dispatcher': initialization started
+2019-01-26 23:10:02,586 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sat Jan 26 23:10:02 IST 2019]; parent: Root WebApplicationContext
+2019-01-26 23:10:02,588 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-26 23:10:02,607 INFO  DispatcherServlet:508 - FrameworkServlet 'dispatcher': initialization completed in 22 ms
+2019-01-26 23:10:10,718 ERROR SampleRestController:44 - Unknown log level -web
+2019-01-26 23:12:01,438 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2019-01-26 23:12:01,492 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Sat Jan 26 23:12:01 IST 2019]; root of context hierarchy
+2019-01-26 23:12:01,530 INFO  AnnotationConfigWebApplicationContext:207 - Registering annotated classes: [class com.sample.configuration.ApplicationConfiguration]
+2019-01-26 23:12:01,730 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-26 23:12:02,407 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jan 26 23:12:01 IST 2019]; root of context hierarchy
+2019-01-26 23:12:02,487 INFO  RequestMappingHandlerMapping:537 - Mapped "{[/rest/samplelog4j],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.sample.controller.SampleRestController.sampleLogs(java.lang.String)
+2019-01-26 23:12:02,592 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 1154 ms
+2019-01-26 23:12:02,650 INFO  DispatcherServlet:489 - FrameworkServlet 'dispatcher': initialization started
+2019-01-26 23:12:02,653 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sat Jan 26 23:12:02 IST 2019]; parent: Root WebApplicationContext
+2019-01-26 23:12:02,656 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-26 23:12:02,687 INFO  DispatcherServlet:508 - FrameworkServlet 'dispatcher': initialization completed in 37 ms
+2019-01-26 23:12:06,856 ERROR SampleRestController:44 - Unknown log level -web
+2019-01-26 23:12:53,113 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2019-01-26 23:12:53,190 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Sat Jan 26 23:12:53 IST 2019]; root of context hierarchy
+2019-01-26 23:12:53,224 INFO  AnnotationConfigWebApplicationContext:207 - Registering annotated classes: [class com.sample.configuration.ApplicationConfiguration]
+2019-01-26 23:12:53,395 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-26 23:12:53,781 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jan 26 23:12:53 IST 2019]; root of context hierarchy
+2019-01-26 23:12:53,824 INFO  RequestMappingHandlerMapping:537 - Mapped "{[/rest/samplelog4j],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.sample.controller.SampleRestController.sampleLogs(java.lang.String)
+2019-01-26 23:12:53,866 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 753 ms
+2019-01-26 23:12:53,915 INFO  DispatcherServlet:489 - FrameworkServlet 'dispatcher': initialization started
+2019-01-26 23:12:53,917 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sat Jan 26 23:12:53 IST 2019]; parent: Root WebApplicationContext
+2019-01-26 23:12:53,917 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-26 23:12:53,937 INFO  DispatcherServlet:508 - FrameworkServlet 'dispatcher': initialization completed in 22 ms
+2019-01-26 23:12:54,397 ERROR SampleRestController:44 - Unknown log level -web
